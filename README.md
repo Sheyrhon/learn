@@ -1,2 +1,2 @@
 # learn
-learning how to use git
+Various Algorithm implementation in python3

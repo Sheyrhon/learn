@@ -20,7 +20,7 @@ def partition(lst, start, end):
             lst[pivot_index],lst[index]=lst[index],lst[pivot_index]
             #swap with the last index
             lst[pivot_index+1],lst[end]=lst[end],lst[pivot_index +1]
-            return pivot_index +1
+            return pivot_index+1
         
 nums = [7,2,5,1,29,6,4,19,11]
 quicksort(nums,0,len(nums)-1)
